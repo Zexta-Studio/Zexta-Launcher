@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Zexta Launcher",
+  "version": "2.5.0",
+  "identifier": "com.zexta.launcher",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:5173",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Zexta Launcher",
+        "width": 1100,
+        "height": 650,
+        "resizable": false,
+        "fullscreen": false,
+        "decorations": false,
+        "transparent": false,
+        "alwaysOnTop": false,
+        "center": true,
+        "minWidth": 1100,
+        "minHeight": 650
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "appimage", "dmg"],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

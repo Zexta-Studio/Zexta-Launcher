@@ -1,0 +1,40 @@
+name: Build/Release Electron App
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - 'v*'
+  pull_request:
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build Global
+        run: bun run build
+
+      - name: Package Electron App
+        run: bun x electron-builder --win
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-windows
+          path: release/
+

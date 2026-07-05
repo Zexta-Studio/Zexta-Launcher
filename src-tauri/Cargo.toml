@@ -1,0 +1,31 @@
+[package]
+name = "zexta-launcher"
+version = "2.5.0"
+description = "Zexta Project Launcher"
+authors = ["Zexta"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "zexta_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2.11", features = ["default"] }
+tauri-plugin-shell = "2"
+reqwest = { version = "0.12", features = ["json", "blocking"] }
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+zip = "2"
+sha2 = "0.10"
+dirs = "6"
+log = "0.4"
+url = "2"
+chrono = { version = "0.4", features = ["serde"] }
+whoami = "1.5"
+open = "5"
+tokio = { version = "1", features = ["time"] }
