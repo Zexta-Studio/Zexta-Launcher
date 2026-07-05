@@ -2,7 +2,7 @@
   "name": "zexta-launcher",
   "version": "2.5.0",
   "type": "module",
-  "description": "Zexta Project Launcher",
+  "description": "Zexta Project Launcher - Next-generation, high-performance, and ultra-lightweight Minecraft launcher built with Tauri 2.0 (Rust) and React 19.",
   "author": {
     "name": "Zexta Project",
     "email": "contact@zexta.com"
