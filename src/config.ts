@@ -3,7 +3,7 @@ export const CONFIG = {
 
   PROJECT_NAME: "Zexta Project",
   SEASON_NAME: "EX1 : Unless",
-  VERSION: "2.5.0",
+  VERSION: "2.6.0",
   BUILD_SIG: "ZEX-2025-03-23-STABLE-X64",
   BUILD_HASH: "e2f4c5a9",
   REPO_OWNER: "phumitchreal",
@@ -48,6 +48,22 @@ export const CONFIG = {
   },
 
   CHANGELOG: [
+    {
+      version: "2.6.0",
+      date: "2025-07-09",
+      title: "Vision Pro Redesign",
+      changes: [
+        "Apple Vision Pro-inspired liquid glass UI system",
+        "3-layer glassmorphism with 80px depth blur",
+        "Ambient gradient orbs with slow float animation",
+        "Redesigned dashboard with glass cards + hover lift",
+        "Accent color theme system with RGB variables",
+        "Colored shadows on interactive elements",
+        "Smooth micro-interactions on all clickables",
+        "Full Thai language support for all UI strings",
+        "Game log display during active gameplay"
+      ]
+    },
     {
       version: "2.5.0",
       date: "2025-03-23",
