@@ -1,102 +1,171 @@
-<p align="center">
-  <img src="public/zexta-logo.png" width="72" alt="Zexta Launcher">
-</p>
-
-<h1 align="center">Zexta Launcher</h1>
-
-<p align="center">
-  <strong>Vision Pro–inspired Minecraft client launcher</strong>
+<div align="center">
+  <img src="public/zexta-logo.png" width="80">
+  <br><br>
+  <h1 style="margin: 0; font-size: 2.5em; letter-spacing: -0.02em;">Zexta Launcher</h1>
+  <p style="margin: 4px 0 0; color: #8E8E93; font-size: 1.05em;">
+    Vision Pro–inspired Minecraft client · Tauri 2.0 · React 19
+  </p>
   <br>
-  Built with Tauri 2.0 · React 19 · Vite 8 · Tailwind v4
-</p>
+  <p>
+    <img src="https://img.shields.io/badge/v2.6.0-007AFF?style=for-the-badge&label=version&labelColor=1C1C1E">
+    <img src="https://img.shields.io/badge/Rust-1.85-DEA584?style=for-the-badge&logo=rust&logoColor=white&labelColor=1C1C1E">
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=1C1C1E">
+    <img src="https://img.shields.io/badge/Tauri-2-FFC131?style=for-the-badge&logo=tauri&logoColor=black&labelColor=1C1C1E">
+    <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=1C1C1E">
+  </p>
+  <br>
+  <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1200&auto=format&fit=crop" width="90%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.08);">
+</div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-2.6.0-007AFF?style=flat-square" alt="Version">
-  <img src="https://img.shields.io/badge/rust-1.85+-DEA584?style=flat-square&logo=rust" alt="Rust">
-  <img src="https://img.shields.io/badge/react-19-61DAFB?style=flat-square&logo=react" alt="React">
-  <img src="https://img.shields.io/badge/tauri-2.0-FFC131?style=flat-square&logo=tauri" alt="Tauri">
-  <img src="https://img.shields.io/badge/license-MIT-8E8E93?style=flat-square" alt="License">
-</p>
+<br>
 
 ---
 
-##  Features
+<br>
 
-- **Apple Vision Pro glass UI** — 3-layer depth with 80px blur, ambient orbs, glass cards
-- **6 accent themes** — Blue, Purple, Green, Orange, Red, Mono
-- **Thai / English UI** — full bilingual support
-- **Microsoft account sign-in** — Discord RPC integration
-- **Modpack auto-install** — Fabric-based Minecraft 1.21.1
-- **Game log streaming** — real-time output while playing
+<div align="center">
+  <table>
+    <tr>
+      <td width="33%" align="center">
+        <br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Sparkles.png" width="28"><br>
+        <b>Liquid Glass</b><br>
+        <sub>80px depth blur · 3-layer depth<br>ambient orbs · glass cards</sub>
+        <br>
+      </td>
+      <td width="33%" align="center">
+        <br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Artist%20Palette.png" width="28"><br>
+        <b>6 Themes</b><br>
+        <sub>Blue · Purple · Green · Orange<br>Red · Mono — pick your accent</sub>
+        <br>
+      </td>
+      <td width="33%" align="center">
+        <br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Globe%20Showing%20Asia-Australia.png" width="28"><br>
+        <b>TH/EN</b><br>
+        <sub>Full Thai & English<br>interface support</sub>
+        <br>
+      </td>
+    </tr>
+    <tr>
+      <td width="33%" align="center">
+        <br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Rocket.png" width="28"><br>
+        <b>One-click Launch</b><br>
+        <sub>Modpack auto-install<br>Fabric · Minecraft 1.21.1</sub>
+        <br>
+      </td>
+      <td width="33%" align="center">
+        <br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Desktop%20Computer.png" width="28"><br>
+        <b>Cross-platform</b><br>
+        <sub>Windows · macOS · Linux<br>via Tauri 2.0</sub>
+        <br>
+      </td>
+      <td width="33%" align="center">
+        <br>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Key.png" width="28"><br>
+        <b>Microsoft Auth</b><br>
+        <sub>Secure login · Discord RPC<br>profile sync</sub>
+        <br>
+      </td>
+    </tr>
+  </table>
+</div>
 
-##  Requirements
+<br>
 
-| Tool | Version |
-|------|---------|
-| [Node.js](https://nodejs.org/) | ≥ 18 |
-| [Rust](https://rustup.rs/) | latest stable |
-| [Tauri CLI](https://v2.tauri.app/start/cli/) | v2 |
+---
 
-##  Getting Started
+<br>
+
+##  Prerequisites
+
+| Tool | Version | Purpose |
+|------|---------|---------|
+| [Node.js](https://nodejs.org/) | ≥ 18 | Frontend build |
+| [Rust](https://rustup.rs/) | latest stable | Tauri backend |
+| [Tauri CLI](https://v2.tauri.app/start/cli/) | v2 | Desktop bundling |
+
+##  Quick Start
 
 ```bash
-# 1. Install dependencies
-npm install
-
-# 2. Run in development mode (hot reload)
-npm run dev
-
-# 3. Build for production
-npm run build          # web frontend only
-npm run tauri build    # full desktop executable
+npm install        # install dependencies
+npm run dev        # dev mode with hot reload
+npm run build      # build web frontend only
+npm run tauri build   # build full desktop app
 ```
 
-##  Build Output
+### Output
 
 ```
-dist/                          → static web build
-src-tauri/target/release/      → desktop executable
+dist/                  → static web build
+src-tauri/target/release/   → desktop executable
 ```
+
+<br>
+
+---
+
+<br>
 
 ##  Tech Stack
 
 ```
-Frontend    React 19 + TypeScript
+Layer       Technology
+────────────────────────────────────
+Frontend    React 19 · TypeScript
 Bundler     Vite 8
 Styling     Tailwind CSS v4
 Desktop     Tauri 2.0 (Rust)
-Auth        Microsoft OAuth
+Auth        Microsoft OAuth · Discord RPC
 Font        LINE Seed Sans TH
 ```
 
-##  Project Structure
+##  Structure
 
 ```
-src/
-├── App.tsx         → Main UI (dashboard, settings, modals)
-├── index.css       → Tailwind, theme variables, glass animations
-├── config.ts       → Default launcher configuration
-└── main.tsx        → React entry point
+src
+├── App.tsx        Main UI (dashboard, settings, modals, all views)
+├── index.css      Tailwind imports · theme variables · glass animations
+├── config.ts      Default launcher config (version, URLs, changelog)
+└── main.tsx       React DOM entry
 ```
+
+<br>
+
+---
+
+<br>
 
 ##  Theme System
 
-Change accent color in **Settings → Appearance**.
+Configure in **Settings → Appearance** — persisted in `localStorage('theme')`.
 
-| Theme   | Accent   | RGB                        |
-|---------|----------|----------------------------|
-| Blue    | `#007AFF`| `rgba(0, 122, 255, ...)`   |
-| Purple  | `#5856D6`| `rgba(88, 86, 214, ...)`   |
-| Green   | `#34C759`| `rgba(52, 199, 89, ...)`   |
-| Orange  | `#FF9500`| `rgba(255, 149, 0, ...)`   |
-| Red     | `#FF3B30`| `rgba(255, 59, 48, ...)`   |
-| Mono    | `#8E8E93`| `rgba(142, 142, 147, ...)` |
+<div align="center">
 
-Persisted in `localStorage('theme')`.
+| Theme   | Accent   | Preview |
+|---------|----------|---------|
+| Blue    | `#007AFF` | <img src="https://img.shields.io/badge/⬤-007AFF?style=flat-square&labelColor=1C1C1E"> |
+| Purple  | `#5856D6` | <img src="https://img.shields.io/badge/⬤-5856D6?style=flat-square&labelColor=1C1C1E"> |
+| Green   | `#34C759` | <img src="https://img.shields.io/badge/⬤-34C759?style=flat-square&labelColor=1C1C1E"> |
+| Orange  | `#FF9500` | <img src="https://img.shields.io/badge/⬤-FF9500?style=flat-square&labelColor=1C1C1E"> |
+| Red     | `#FF3B30` | <img src="https://img.shields.io/badge/⬤-FF3B30?style=flat-square&labelColor=1C1C1E"> |
+| Mono    | `#8E8E93` | <img src="https://img.shields.io/badge/⬤-8E8E93?style=flat-square&labelColor=1C1C1E"> |
+
+</div>
+
+<br>
+
+---
+
+<br>
 
 ##  Changelog
 
-**v2.6.0** — Vision Pro Liquid Glass redesign
+### v2.6.0 — Vision Pro Redesign
+`2025-07-09`
 
 - Apple Vision Pro–inspired 3-layer glass UI (80px blur)
 - Ambient gradient orbs with slow float animation
@@ -104,10 +173,28 @@ Persisted in `localStorage('theme')`.
 - RGB accent variables for dynamic colored glows
 - Full Thai language support across all UI
 - Game log display during active gameplay
-- All-new premium button system with press feedback
+- Premium button system with press feedback
+
+### v2.5.0 — EX1: Unless
+`2025-03-23`
+
+- Enhanced system optimization for better performance
+- Improved launcher UI/UX with better accessibility
+- Cross-platform support (Windows, macOS, Linux)
+- Java 21 auto-installation for all platforms
+- Bug fixes for mod synchronization
+
+<br>
 
 ---
 
-<p align="center">
-  <sub>Zexta Project &middot; 2025</sub>
-</p>
+<br>
+
+<div align="center">
+  <sub>Zexta Project · 2025</sub>
+  <br>
+  <sub>
+    <a href="https://discord.gg/frontline">Discord</a> ·
+    <a href="https://frontline-project.com">Website</a>
+  </sub>
+</div>
