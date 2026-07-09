@@ -1,20 +1,18 @@
 <div align="center">
-  <img src="public/zexta-logo.png" width="80">
+  <img src="public/zexta-logo.png" width="80" alt="Zexta Launcher">
   <br><br>
   <h1 style="margin: 0; font-size: 2.5em; letter-spacing: -0.02em;">Zexta Launcher</h1>
-  <p style="margin: 4px 0 0; color: #8E8E93; font-size: 1.05em;">
+  <p style="margin: 4px 0 0; font-size: 1.05em;">
     Vision Pro–inspired Minecraft client · Tauri 2.0 · React 19
   </p>
   <br>
   <p>
-    <img src="https://img.shields.io/badge/v2.6.0-007AFF?style=for-the-badge&label=version&labelColor=1C1C1E">
-    <img src="https://img.shields.io/badge/Rust-1.85-DEA584?style=for-the-badge&logo=rust&logoColor=white&labelColor=1C1C1E">
-    <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=1C1C1E">
-    <img src="https://img.shields.io/badge/Tauri-2-FFC131?style=for-the-badge&logo=tauri&logoColor=black&labelColor=1C1C1E">
-    <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=1C1C1E">
+    <img src="https://img.shields.io/badge/v2.6.0-007AFF?style=for-the-badge&label=version&labelColor=1C1C1E" alt="Version">
+    <img src="https://img.shields.io/badge/Rust-1.85-DEA584?style=for-the-badge&logo=rust&logoColor=white&labelColor=1C1C1E" alt="Rust">
+    <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white&labelColor=1C1C1E" alt="React">
+    <img src="https://img.shields.io/badge/Tauri-2-FFC131?style=for-the-badge&logo=tauri&logoColor=black&labelColor=1C1C1E" alt="Tauri">
+    <img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=1C1C1E" alt="Vite">
   </p>
-  <br>
-  <img src="https://images.unsplash.com/photo-1627398242454-45a1465c2479?q=80&w=1200&auto=format&fit=crop" width="90%" style="border-radius: 16px; border: 1px solid rgba(255,255,255,0.08);">
 </div>
 
 <br>
@@ -26,50 +24,14 @@
 <div align="center">
   <table>
     <tr>
-      <td width="33%" align="center">
-        <br>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Sparkles.png" width="28"><br>
-        <b>Liquid Glass</b><br>
-        <sub>80px depth blur · 3-layer depth<br>ambient orbs · glass cards</sub>
-        <br>
-      </td>
-      <td width="33%" align="center">
-        <br>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Artist%20Palette.png" width="28"><br>
-        <b>6 Themes</b><br>
-        <sub>Blue · Purple · Green · Orange<br>Red · Mono — pick your accent</sub>
-        <br>
-      </td>
-      <td width="33%" align="center">
-        <br>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Globe%20Showing%20Asia-Australia.png" width="28"><br>
-        <b>TH/EN</b><br>
-        <sub>Full Thai & English<br>interface support</sub>
-        <br>
-      </td>
+      <td width="33%" align="center"><b>✨ Liquid Glass</b><br><sub>80px depth blur · 3-layer depth<br>ambient orbs · glass cards</sub></td>
+      <td width="33%" align="center"><b>🎨 6 Themes</b><br><sub>Blue · Purple · Green · Orange<br>Red · Mono — pick your accent</sub></td>
+      <td width="33%" align="center"><b>🌏 TH/EN</b><br><sub>Full Thai & English<br>interface support</sub></td>
     </tr>
     <tr>
-      <td width="33%" align="center">
-        <br>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Rocket.png" width="28"><br>
-        <b>One-click Launch</b><br>
-        <sub>Modpack auto-install<br>Fabric · Minecraft 1.21.1</sub>
-        <br>
-      </td>
-      <td width="33%" align="center">
-        <br>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Desktop%20Computer.png" width="28"><br>
-        <b>Cross-platform</b><br>
-        <sub>Windows · macOS · Linux<br>via Tauri 2.0</sub>
-        <br>
-      </td>
-      <td width="33%" align="center">
-        <br>
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojios/Key.png" width="28"><br>
-        <b>Microsoft Auth</b><br>
-        <sub>Secure login · Discord RPC<br>profile sync</sub>
-        <br>
-      </td>
+      <td width="33%" align="center"><b>🚀 One-click Launch</b><br><sub>Modpack auto-install<br>Fabric · Minecraft 1.21.1</sub></td>
+      <td width="33%" align="center"><b>💻 Cross-platform</b><br><sub>Windows · macOS · Linux<br>via Tauri 2.0</sub></td>
+      <td width="33%" align="center"><b>🔑 Microsoft Auth</b><br><sub>Secure login · Discord RPC<br>profile sync</sub></td>
     </tr>
   </table>
 </div>
@@ -143,18 +105,14 @@ src
 
 Configure in **Settings → Appearance** — persisted in `localStorage('theme')`.
 
-<div align="center">
-
-| Theme   | Accent   | Preview |
-|---------|----------|---------|
-| Blue    | `#007AFF` | <img src="https://img.shields.io/badge/⬤-007AFF?style=flat-square&labelColor=1C1C1E"> |
-| Purple  | `#5856D6` | <img src="https://img.shields.io/badge/⬤-5856D6?style=flat-square&labelColor=1C1C1E"> |
-| Green   | `#34C759` | <img src="https://img.shields.io/badge/⬤-34C759?style=flat-square&labelColor=1C1C1E"> |
-| Orange  | `#FF9500` | <img src="https://img.shields.io/badge/⬤-FF9500?style=flat-square&labelColor=1C1C1E"> |
-| Red     | `#FF3B30` | <img src="https://img.shields.io/badge/⬤-FF3B30?style=flat-square&labelColor=1C1C1E"> |
-| Mono    | `#8E8E93` | <img src="https://img.shields.io/badge/⬤-8E8E93?style=flat-square&labelColor=1C1C1E"> |
-
-</div>
+| Theme   | Accent   |
+|---------|----------|
+| Blue    | `#007AFF` |
+| Purple  | `#5856D6` |
+| Green   | `#34C759` |
+| Orange  | `#FF9500` |
+| Red     | `#FF3B30` |
+| Mono    | `#8E8E93` |
 
 <br>
 
